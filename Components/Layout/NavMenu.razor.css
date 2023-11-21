@@ -1,0 +1,42 @@
+﻿.search-bar {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1.2rem;
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    
+    transition: 100ms ease-in-out;
+}
+
+.search-bar:focus-within {
+    width: 450px;
+    -moz-box-shadow: inherit;
+    -webkit-box-shadow: inherit;
+    box-shadow: 0 3px 20px 0px purple;
+}
+
+.search-bar Icon {
+    margin-left: 10px;
+}
+
+.search-bar input {
+    border: none;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
